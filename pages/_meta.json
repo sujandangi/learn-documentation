@@ -1,15 +1,35 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
+  "index": {
+    "title": "UPSC Pro",
+    "type":"page",
+    "display": "hidden",
+    "theme": {
+      "footer": true,
+      "sidebar": false,
+      "pagination": false,
+      "toc": false,
+      "layout": "full"
+    }
+  },
+  "upsc": {
+    "title": "UPSC",
+    "type": "page",
+    "theme": {
+      "footer": true,
+      "sidebar": true,
+      "pagination": true,
+      "toc": false
+    }
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "Contact",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+    "theme": {
+      "footer": true,
+      "sidebar": false,
+      "pagination": false,
+      "toc": false,
+      "layout": "full"
+    }
   }
 }
